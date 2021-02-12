@@ -2,7 +2,7 @@
   "name": "the-game",
   "version": "1.0.0",
   "description": "test mmo game",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "scripts": {
     "start": "webpack serve",
     "lint": "./node_modules/.bin/eslint . --ext .ts",
@@ -24,6 +24,7 @@
     "eslint": "^7.19.0",
     "eslint-config-airbnb": "^18.2.1",
     "html-webpack-plugin": "^5.0.0",
+    "ts-loader": "^8.0.17",
     "typescript": "^4.1.5",
     "webpack-cli": "^4.5.0",
     "webpack-dev-server": "^3.11.2"
